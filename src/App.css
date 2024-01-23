@@ -1,0 +1,45 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: (to right,#2c5364, #203a43, #0f2027);
+  /* text-align: center; */
+}
+body{
+  background-color: #130f40;
+  background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+}
+h1{
+  text-align: center;
+  color: white;
+
+}
+#inputbox{
+  width: 60%;
+  height: 30px;
+  margin-left: 15%;  
+  margin-right: 10px;
+  
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 18px;
+}
+input::placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  margin-left: 10px;
+}
+
+
+
+#maindiv{
+  width: 100%;
+  margin: 20% auto;
+  
+}
+@media screen and (max-width: 768px) {
+  #maindiv{
+    margin: 100% auto;
+  }
+
+}
