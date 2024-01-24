@@ -9,7 +9,7 @@ export default function App() {
   const [error, setError] = useState(null);
   const [showErrorMessage, setShowErrorMessage] = useState(false);
 
-  const token = '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';
+  const token = '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';
   const url = `https://api.github.com/users/${username}`;
   console.log(url)
   const fetchData = async (e) => {
